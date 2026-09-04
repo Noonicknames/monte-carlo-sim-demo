@@ -1,0 +1,18 @@
+{
+  "name": "mc-sim-visualisation",
+  "type": "module",
+  "collaborators": [
+    "Noonicknames"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "mc_sim_visualisation_bg.wasm",
+    "mc_sim_visualisation.js",
+    "mc_sim_visualisation.d.ts"
+  ],
+  "main": "mc_sim_visualisation.js",
+  "types": "mc_sim_visualisation.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

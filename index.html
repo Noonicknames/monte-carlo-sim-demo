@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>test_app</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            color: white;
+            background-color: black;
+            padding: 0;
+            margin: 0;
+            font-size: .8rem;
+        }
+
+        #engine-app {
+            width: 100vw !important;
+            height: 100vh !important;
+            display: block;
+        }
+    </style>
+    <script type="module">
+        import init from "./mc_sim_visualisation.js"
+        init().then(() => {
+            console.log("WASM Loaded");
+        });
+    </script>
+</head>
+
+<body id="engine">
+</body>
+
+</html>
